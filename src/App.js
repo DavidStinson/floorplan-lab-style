@@ -4,10 +4,6 @@ import Bedroom from './Bedroom';
 import LivingRoom from './LivingRoom';
 import Bath from './Bath';
 
-
-
-
-
 function App() {
 
   return (
