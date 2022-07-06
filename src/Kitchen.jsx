@@ -5,12 +5,12 @@ import Sink from "./Sink"
 const Kitchen = (props) => {
   return (
     <>
-      <div className="Kitchen">
+      <div id="kitchen" className="centered-flex">
         <h3>Kitchen</h3>
-        <ul>
+        <div id="kitchen-stuff">
           <Oven />
           <Sink />
-        </ul>
+        </div>
       </div>
     </>
   )
